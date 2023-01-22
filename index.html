@@ -13,7 +13,7 @@
                 <div class="conteiner">
                     <div class="nav_header">
                         <div class="left_nav">
-                        <a href="Home" class="link_logo">
+                        <a href="#" class="link_logo">
                             <img src="./images/logo.svg" alt="" class="logo_header">
                         </a>
                         </div>
@@ -49,9 +49,9 @@
                                         </a>
                                     </li> 
                                     <li class="icon_item">
-                                        <a href="#">
+                                        <button class="icons_btn" id="myBtn">
                                             <img src="./images/login.svg" alt="" class="login_item">
-                                        </a>
+                                        </button>
                                     </li>
                                 </ul>
                             </div>
@@ -66,8 +66,8 @@
                                 <p class="hero_deck">
                                     Explore different categories. Find the best deals.
                                 </p>
-                                <button class="btn_hero btn_link">
-                                    Shop Now
+                                <button class="btn_hero ">
+                                   <p class="btn_link"> Shop Now</p>
                                 </button>
             
                             </div>
@@ -79,5 +79,34 @@
     
 
         </header>
+        
+
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close"><img class="ss" src="./images/Vector.svg" alt=""></span>
+    <h3 class="modal-info">Log in</h3>
+      <form action="https://echo.htmlacademy.ru">
+        <label class="login_label">
+            <img src="./images/odam.svg" alt="">
+            <input class="login_input" type="text" name="User Name" placeholder="User Name">
+        </label>    
+        <label class="login_label">
+            <img src="./images/qulp.svg" alt="">
+            <input class="login_input" type="text" name="Password" placeholder="Password">
+        </label>    
+        <button class="submit" type="submit">
+            Log in
+        </button>
+      </form>
+
+  </div>
+
+</div>
+
+
+<script src="./js/modal.js">    </script>
+
     </body>
     </html>
